@@ -1,33 +1,24 @@
 {
-  "name": "portfolio",
-  "version": "0.1.0",
+  "name": "your-app",
+  "version": "1.0.0",
   "private": true,
+  "engines": {
+    "node": ">=18.0.0"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "start": "next start"
   },
   "dependencies": {
-    "@emailjs/browser": "4.4.1",
-    "@heroicons/react": "2.2.0",
-    "@next/swc-win32-x64-msvc": "^14.1.0",
-    "framer-motion": "12.10.4",
-    "next": "13.5.6",
-    "next-themes": "0.4.6",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "react-icons": "5.5.0"
+    "next": "^13.5.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
   },
   "devDependencies": {
-    "@types/node": "20.8.2",
-    "@types/react": "18.2.24",
-    "@types/react-dom": "18.2.8",
-    "autoprefixer": "10.4.14",
-    "eslint": "8.50.0",
-    "eslint-config-next": "13.5.6",
-    "postcss": "8.4.31",
-    "tailwindcss": "3.3.0",
-    "typescript": "5.2.2"
+    "@netlify/plugin-nextjs": "^4.41.3",
+    "typescript": "^5.0.0",
+    "@types/react": "^18.0.0",
+    "@types/node": "^18.0.0"
   }
 }
